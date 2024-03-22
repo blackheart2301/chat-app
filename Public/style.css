@@ -1,0 +1,50 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.chatroom-container{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(85, 103, 119);
+}
+.form-username{
+    display: block;
+}
+.chatroom-header{
+    background-color: rgb(86, 179, 158);
+    color:white;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+}
+.sent{
+    align-self: flex-end;
+    background-color: rgb(255, 198, 92) !important;
+}
+.message{
+    background-color: rgb(48, 175, 54);
+    width:fit-content;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+#send-btn{
+    background-color: rgb(131, 161, 224);
+    border-radius: 12px;
+    float:right;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+}
+#message-input{
+    border-radius: 8px;
+    width: 90%;
+    margin : 0.5rem;
+    background-color: rgb(51, 51, 66);
+    color:rgb(133, 204, 180);
+    
+}
